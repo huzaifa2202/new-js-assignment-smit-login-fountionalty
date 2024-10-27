@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parrent {
+    border: 2px solid black;
+    height: 2000px;
+    width: 100%;
+}
+
+.nav {
+    /* border: 1px solid green; */
+    height: 120px;
+    width: 100%;
+    background-color: sienna;
+}
+
+/* .image {
+    border: 1px solid blue;
+    height: 90px;
+    width: 10%;
+    margin-top: 10px;
+    margin-left: 50px;
+    background-color: sienna;
+} */
+
+.inp {
+    /* border: 1px solid red; */
+    height: 100px;
+    width: 70%;
+    margin-top: 8px;
+    margin-left: 100px;
+    background-color: sienna;
+}
+
+#menu {
+    /* border: 1px solid peru; */
+    height: 40px;
+    width: 90%;
+    margin-left: 50px;
+    background-color: sienna;
+    display: inline-flex;
+}
+
+ul li {
+    /* border: 1px solid blue; */
+    list-style: none;
+    display: inline-flex;
+    margin-top: 5px;
+    font-size: 15px;
+    margin-left: 100px;
+    color: wheat;
+}
+
+ul li:hover {
+    cursor: pointer;
+}
+
+.logindiv {
+    /* border: 1px solid black; */
+    height: 36px;
+    width: 20%;
+    margin-top: 2px;
+    margin-left: 150px;
+    display: inline-flex;
+}
+
+#input {
+    /* border: 1px solid black; */
+    border-radius: 50px;
+    height: 50px;
+    width: 85%;
+    margin-left: 100px;
+    margin-top: 5px;
+    background-color: white;
+}
+
+#inp {
+    border: none;
+    padding-left: 50px;
+    height: 45px;
+    width: 95%;
+    border-radius: 50px;
+    margin-top: 3px;
+    /* margin-left: 5px; */
+}
+
+.head {
+    /* border: 1px solid black; */
+    height: 100px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.card-1 {
+    /* border: 1px solid black; */
+    height: 500px;
+    width: 16%;
+    margin-left: 320px;
+    margin-top: 20px;
+    display: inline-flex;
+}
+
+.card-2 {
+    /* border: 1px solid black; */
+    height: 500px;
+    width: 16%;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-flex;
+}
